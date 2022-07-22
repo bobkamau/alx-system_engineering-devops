@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/ncusr/bin/env bash
 #checking file exists and stuff
 
 name=school
