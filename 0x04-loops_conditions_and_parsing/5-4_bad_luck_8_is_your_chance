@@ -1,15 +1,16 @@
-#!/ncusr/bin/env bash
-#more while if stuff
-
-count=1
-while [ $count -ne 11 ]
+#!/usr/bin/env bash
+#loop 10 iterations and three especific conditionals
+i="0"
+while [ $i -lt 10 ]
 do
-    if [ $count -eq 4 ]; then
-	echo "bad luck"
-    elif [ $count -eq 8 ]; then
-	echo "good luck"
-    else
-	echo "Best School"
-    fi
-    ((count++))
+	if ((i == 3))
+	then
+		echo "bad luck"
+	elif ((i == 7))
+	then 
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	((i++))
 done
