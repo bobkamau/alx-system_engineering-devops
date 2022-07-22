@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/ncusr/bin/env bash
 # This script is displaying "Best School" 10 
 x="0"
 while [ $x -lt 10 ]
