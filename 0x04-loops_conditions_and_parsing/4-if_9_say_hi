@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/ncusr/bin/env bash
 #while if stuff
 
 count=0
