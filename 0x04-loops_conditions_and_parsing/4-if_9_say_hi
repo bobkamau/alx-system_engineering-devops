@@ -1,13 +1,12 @@
-#!/ncusr/bin/env bash
-#while if stuff
-
-count=0
-while [ $count -ne 11 ]
+#!/usr/bin/env bash
+# This script is displaying "Best School" and "Hi"
+x="0"
+while [ $x -lt 10 ]
 do
-    if [ $count -eq 9 ]; then
-	echo "Hi"
-    else
-	echo "Best School"
+    echo "Best School"
+    if ((x == 8))
+    then
+        echo "Hi"
     fi
-    ((count++))
+    x=$((x+1))
 done
