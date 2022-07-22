@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/ncusr/bin/env bash
 # displays username, user id and home directory for each line of /etc/passwd.
 
 input="/etc/passwd"
