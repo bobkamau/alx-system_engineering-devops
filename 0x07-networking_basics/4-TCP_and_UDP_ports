@@ -1,0 +1,2 @@
+s script displays listening ports
+netstat -l --program
